@@ -1,0 +1,25 @@
+.equalButton{
+    background-color:rgba(255,255,255,0.2);
+    border:none;
+    border-radius: 5px;
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    height: 50px;
+    width: 140px;
+    margin: 5px;
+    font-size: 30px;
+    transition: all 0.2s ease-in-out;
+backdrop-filter: blur(15px); 
+border-top:1px solid rgba(255,255,255,0.2);
+border-left:1px solid rgba(255,255,255,0.2);
+box-shadow:  inset 4px 4px 5px rgba(255, 255, 255, 0.4),
+            inset -4px  -4px 5px rgba(0, 0, 0, 0.2) , 
+                  10px 40px 40px rgba(0, 0, 0, 0.4);
+                  cursor: pointer;
+}
+
+.equalButton:hover{
+    background-color:rgba(255,255,255,0.4);
+    color: #000;
+}

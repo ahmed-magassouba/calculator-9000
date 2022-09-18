@@ -1,0 +1,67 @@
+.calculator {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.allScreen {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40%;
+}
+
+.buttonContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nbrCalc {
+    display: flex;
+}
+
+.clearBack {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+    width: 90%;
+}
+
+.saveList {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    width: 285px;
+    background-color: #090909b3;
+    color: white;
+    font-size: 20px;
+    overflow: auto;
+    border-radius: 5px 5px 0 0;
+}
+
+.saveList article {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 10px;
+    margin: 2px 0;
+    width: 280px;
+    background-color: #d3c9c933;
+}
+
+.saveList article button {
+background-color:rgba(255, 0, 0, 0.364);
+border: none;
+color: white;
+cursor: pointer;
+}

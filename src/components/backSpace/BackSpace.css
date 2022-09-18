@@ -1,26 +1,23 @@
-.App{
+.backSpaceButton{
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    background-color: #282c34;
-    color: white;
-}
-
-.appcalc{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    width: 300px;
-    height: 600px;
-    border-radius: 10px;
-    padding: 10px;
-    backdrop-filter: blur(15px);
+    cursor: pointer;
+    width: 50px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color:rgba(255,255,255,0.2);
+    transition: all 0.2s ease-in-out;
+    backdrop-filter: blur(15px); 
     border-top:1px solid rgba(255,255,255,0.2);
     border-left:1px solid rgba(255,255,255,0.2);
     box-shadow:  inset 4px 4px 5px rgba(255, 255, 255, 0.4),
                 inset -4px  -4px 5px rgba(0, 0, 0, 0.2) , 
                       10px 40px 40px rgba(0, 0, 0, 0.4);
+}
+
+.backSpaceButton:hover{
+    background-color:rgba(255,255,255,0.4);
+    color: #000;
 }

@@ -1,0 +1,32 @@
+.screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 285px;
+    
+}
+
+.screen input {
+    border: none;
+    height: 50px;
+    width: 265px;
+    ;
+    background-color: #21664651;
+    padding: 0 10px;
+
+}
+
+.screen1 {
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.screen2 {
+    color: #070e0b;
+    text-align: end;
+    border-radius: 0 0 5px 5px;
+    font-size: 1.2em;
+}
