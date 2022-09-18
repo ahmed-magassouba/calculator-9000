@@ -43,7 +43,7 @@ export default function Calculator() {
     console.log("result");
     console.log(number, result);
 
-    const url = `http://localhost/calculator-9000/backend/calculatorApi.php`;
+    const url = `http://localhost/backend/calculatorApi.php`;
     try {
       const response = await axios.post(url, {
         number: number,
@@ -58,7 +58,7 @@ export default function Calculator() {
 
   const fetctchData = async () => {
     const response = await axios.get(
-      "http://localhost/calculator-9000/backend/calculatorGetApi.php"
+      "http://localhost/backend/calculatorGetApi.php"
     );
     console.log(response.data);
     setCalculList(response.data);
@@ -70,7 +70,7 @@ export default function Calculator() {
 
  const handleDelete = async (id) => {
     console.log(id);
-    const url = `http://localhost/calculator-9000/backend/calculatorDeleteApi.php`;
+    const url = `http://localhost/backend/calculatorDeleteApi.php`;
     try {
       const response = await axios.post(url, {
         id: id,
